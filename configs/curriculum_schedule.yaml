@@ -1,0 +1,36 @@
+phases:
+  - step_threshold: 0         # 第一个阶段（起始）
+    max_furniture: 3
+    allow_rotation: false
+    reward_weights:
+      clearance_weight: 1.0
+      alignment_weight: 0.5
+      rotation_weight: 0.0
+      window_weight: 0.5
+      path_weight: 1.0
+      near_weight: 0.5
+      face_weight: 0.0
+
+  - step_threshold: 5000      # 第二阶段
+    max_furniture: 6
+    allow_rotation: true
+    reward_weights:
+      clearance_weight: 1.0
+      alignment_weight: 0.7
+      rotation_weight: 0.4
+      window_weight: 0.6
+      path_weight: 1.0
+      near_weight: 0.7
+      face_weight: 0.3
+
+  - step_threshold: 15000     # 第三阶段（完整场景）
+    max_furniture: 10
+    allow_rotation: true
+    reward_weights:
+      clearance_weight: 1.0
+      alignment_weight: 0.8
+      rotation_weight: 0.6
+      window_weight: 0.8
+      path_weight: 1.0
+      near_weight: 0.9
+      face_weight: 0.5

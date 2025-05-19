@@ -1,0 +1,55 @@
+{
+  "room_width": 15,
+  "room_height": 12,
+  "unit": "meter",
+
+  "walls": [
+    { "start": [0, 0], "end": [15, 0] },
+    { "start": [15, 0], "end": [15, 12] },
+    { "start": [15, 12], "end": [0, 12] },
+    { "start": [0, 12], "end": [0, 0] }
+  ],
+
+  "doors": [
+    [6, 0, 2, 1]
+  ],
+
+  "windows": [
+    [4, 11, 2, 1]
+  ],
+
+  "scoring_weights": {
+    "bed_window_proximity": 25,
+    "chair_table_proximity": 20,
+    "furniture_spacing": -15,
+    "door_accessibility": 35,
+    "alignment": 10
+  },
+
+  "zones": [
+    {
+      "type": "bedroom",
+      "x1": 0,
+      "y1": 0,
+      "x2": 7,
+      "y2": 8,
+      "priority": 1
+    },
+    {
+      "type": "living_room",
+      "x1": 7,
+      "y1": 0,
+      "x2": 15,
+      "y2": 6,
+      "priority": 2
+    },
+    {
+      "type": "dining",
+      "x1": 0,
+      "y1": 8,
+      "x2": 15,
+      "y2": 12,
+      "priority": 3
+    }
+  ]
+}

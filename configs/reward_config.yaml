@@ -1,0 +1,15 @@
+clearance_weight: 1.0         # 家具间保持合理间距
+alignment_weight: 0.6         # 横向或纵向对齐
+rotation_weight: 0.4          # 朝向标准角度（如靠墙、朝外）
+window_weight: 0.8            # 靠近窗户（如桌子靠窗）
+path_weight: 1.0              # 可通行路径（door → bed/desk）
+near_weight: 0.7              # 需要“靠近”的家具是否靠近（如床头柜靠床）
+face_weight: 0.5              # 是否“面对”目标家具（如沙发朝电视）
+
+layout_score_weights:
+  bed_window_proximity: 1.0
+  chair_table_proximity: 1.0
+  furniture_spacing: 1.0
+  door_accessibility: 1.0
+  alignment: 1.0
+  space_utilization: 1.0

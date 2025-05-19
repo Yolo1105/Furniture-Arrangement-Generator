@@ -1,0 +1,101 @@
+# -----------------------
+# OS-specific files
+# -----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# -----------------------
+# Node.js
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log
+
+# -----------------------
+# TypeScript
+# -----------------------
+*.tsbuildinfo
+dist/
+build/
+lib/
+
+# -----------------------
+# Environment files
+# -----------------------
+.env
+.env.*.local
+.env.local
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+*.log.*
+
+# -----------------------
+# Editor & IDEs
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------
+# Testing
+# -----------------------
+coverage/
+.nyc_output/
+
+# -----------------------
+# Mac-specific & archives
+# -----------------------
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+
+# -----------------------
+# AWS CDK
+# -----------------------
+cdk.out/
+cdk.context.json
+
+# -----------------------
+# Build utility artifacts
+# -----------------------
+build-utils/data/listings_*.json
+build-utils/data/*.csv
+build-utils/renders/*.png
+
+# -----------------------
+# Backend (local packages)
+# -----------------------
+src/backend/package.json
+src/backend/package-lock.json
+src/backend/node_modules/
+src/backend/npm.ts
+
+# -----------------------
+# CICD Zip Ignore Compatibility
+# -----------------------
+*node_modules*
+*cdk.out*
+*dist*
+
+# -----------------------
+# Optional
+# -----------------------
+old/
+*.bak
+*.tmp

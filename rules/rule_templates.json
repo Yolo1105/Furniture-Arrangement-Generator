@@ -1,0 +1,14 @@
+{
+  "bed_against_wall": {
+    "type": "bed",
+    "min_wall_distance": 0
+  },
+  "desk_near_window": {
+    "type": "desk",
+    "max_window_distance": 1.5
+  },
+  "aisle_clearance": {
+    "type": "any",
+    "min_distance": 0.6
+  }
+}

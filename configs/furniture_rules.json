@@ -1,0 +1,66 @@
+{
+  "bed": {
+    "must_near": "wardrobe",
+    "default_size": [3, 4],
+    "preferred_positions": ["corner", "wall"],
+    "min_door_distance": 1.5,
+    "clearance": 1.0
+  },
+  "sofa": {
+    "must_near": "coffee_table",
+    "default_size": [3, 1.5],
+    "preferred_wall": "longest",
+    "rotation_enabled": true,
+    "clearance": 1.0
+  },
+  "table": {
+    "must_near": "chair",
+    "default_size": [2, 2],
+    "chair_spacing": 1.0,
+    "chair_sides": ["left", "right", "top"],
+    "clearance": 0.8
+  },
+  "chair": {
+    "must_near": "desk",
+    "default_size": [1, 1],
+    "table_spacing": 1.0,
+    "clearance": 0.5
+  },
+  "wardrobe": {
+    "must_near": "bed",
+    "default_size": [2, 3],
+    "preferred_wall": "short",
+    "min_door_distance": 1.0,
+    "clearance": 0.8
+  },
+  "tv_stand": {
+    "must_near": "sofa",
+    "default_size": [2, 0.5],
+    "sofa_facing": true,
+    "clearance": 1.0
+  },
+  "coffee_table": {
+    "must_near": "sofa",
+    "default_size": [1, 1],
+    "sofa_spacing": 0.5,
+    "clearance": 0.6
+  },
+  "bookshelf": {
+    "must_near": null,
+    "default_size": [1, 2],
+    "preferred_wall": "non_window",
+    "clearance": 0.5
+  },
+  "desk": {
+    "must_near": "chair",
+    "default_size": [2, 1],
+    "chair_spacing": 0.8,
+    "clearance": 0.5
+  },
+  "shoe_cabinet": {
+    "must_near": null,
+    "default_size": [1, 0.5],
+    "door_proximity": 0.5,
+    "clearance": 0.3
+  }
+}
